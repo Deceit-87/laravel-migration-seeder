@@ -8,8 +8,9 @@
 
 
 @foreach ($trains as $train )
-{{$train->stazione_partenza}}<br>
-{{$train->stazione_arrivo}}<br>
+<strong>Codice Treno</strong>{{' '.$train->codice_treno}}<br>
+{{$train->stazione_partenza.' '}} <em><strong>Partenza:</strong></em> {{$train->ora_partenza}}<br>
+{{$train->stazione_arrivo.' '}}<em><strong>Partenza:</strong></em> {{$train->ora_arrivo}}<br>
 <hr>
 
     
