@@ -1,5 +1,5 @@
 <header>
 
-sono un cazzo di header
+<a href="{{'partenze'}}">Treni in partenza</a>
 
 </header>
